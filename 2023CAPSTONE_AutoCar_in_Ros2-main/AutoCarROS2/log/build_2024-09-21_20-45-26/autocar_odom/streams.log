@@ -1,0 +1,72 @@
+[0.022s] Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_odom -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom
+[0.072s] -- The C compiler identification is GNU 9.4.0
+[0.141s] -- The CXX compiler identification is GNU 9.4.0
+[0.145s] -- Check for working C compiler: /usr/bin/cc
+[0.209s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.209s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.377s] -- Detecting CXX compiler ABI info
+[0.455s] -- Detecting CXX compiler ABI info - done
+[0.476s] -- Detecting CXX compile features
+[0.477s] -- Detecting CXX compile features - done
+[0.481s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.493s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.493s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.700s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.703s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.750s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.838s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.866s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.032s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.103s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.175s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.244s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.246s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.247s] -- Added test 'lint_cmake' to check CMake code style
+[1.247s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.248s] -- Added test 'xmllint' to check XML markup files
+[1.251s] -- Configuring done
+[1.253s] -- Generating done
+[1.254s] -- Build files have been written to: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom
+[1.261s] Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_odom -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom
+[1.263s] Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom -- -j8 -l8
+[1.299s] Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom -- -j8 -l8
+[1.320s] Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom
+[1.328s] -- Install configuration: ""
+[1.329s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom
+[1.329s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/gps_save.py
+[1.329s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/dead_reckoning.py
+[1.329s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/odom_pub.py
+[1.329s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/odom_viz.py
+[1.329s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/get_encoder.py
+[1.330s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/encoder_vel.py
+[1.330s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/tf_pub.py
+[1.330s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/move_position.py
+[1.330s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/get_yaw_init.py
+[1.331s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/autocar_odom/lidar_extract_channel.py
+[1.331s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom//rviz
+[1.331s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom//rviz/view.rviz
+[1.332s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom//config
+[1.332s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom//config/ekf.yaml
+[1.332s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/ament_index/resource_index/package_run_dependencies/autocar_odom
+[1.332s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/ament_index/resource_index/parent_prefix_path/autocar_odom
+[1.333s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/environment/ament_prefix_path.sh
+[1.333s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/environment/ament_prefix_path.dsv
+[1.333s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/environment/path.sh
+[1.333s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/environment/path.dsv
+[1.333s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/local_setup.bash
+[1.333s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/local_setup.sh
+[1.334s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/local_setup.zsh
+[1.334s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/local_setup.dsv
+[1.334s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.dsv
+[1.334s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/ament_index/resource_index/packages/autocar_odom
+[1.335s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/cmake/autocar_odomConfig.cmake
+[1.335s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/cmake/autocar_odomConfig-version.cmake
+[1.335s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.xml
+[1.338s] Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom

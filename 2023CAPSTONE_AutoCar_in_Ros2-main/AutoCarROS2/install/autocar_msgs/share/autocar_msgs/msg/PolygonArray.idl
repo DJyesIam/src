@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autocar_msgs/msg/PolygonArray.msg
+// generated code does not contain a copyright notice
+
+#include "autocar_msgs/msg/Polygon.idl"
+
+module autocar_msgs {
+  module msg {
+    struct PolygonArray {
+      sequence<autocar_msgs::msg::Polygon> polygon_list;
+    };
+  };
+};

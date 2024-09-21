@@ -1,0 +1,645 @@
+[0.000000] (-) TimerEvent: {}
+[0.000091] (-) JobUnselected: {'identifier': 'autocar_map'}
+[0.000115] (-) JobUnselected: {'identifier': 'autocar_nav'}
+[0.000191] (-) JobUnselected: {'identifier': 'autocar_odom'}
+[0.000222] (-) JobUnselected: {'identifier': 'launches'}
+[0.000267] (autocar_msgs) JobQueued: {'identifier': 'autocar_msgs', 'dependencies': OrderedDict()}
+[0.000338] (autocar_msgs) JobStarted: {'identifier': 'autocar_msgs'}
+[0.007231] (autocar_msgs) JobProgress: {'identifier': 'autocar_msgs', 'progress': 'cmake'}
+[0.007342] (autocar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs', '-DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs'], 'cwd': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dj'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1512'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dj'), ('OLDPWD', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1412'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1933'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dj'), ('JOURNAL_STREAM', '8:43268'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/djslaptop:@/tmp/.ICE-unix/1550,unix/djslaptop:/tmp/.ICE-unix/1550'), ('INVOCATION_ID', 'fccab4aa2ee340298dcdc5da319bbce9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1d2464da-5748-4af8-8c23-36b3cb9756a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099503] (-) TimerEvent: {}
+[0.110811] (autocar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199647] (-) TimerEvent: {}
+[0.242202] (autocar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.248012] (autocar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299750] (-) TimerEvent: {}
+[0.308468] (autocar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.309608] (autocar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.372414] (autocar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.383082] (autocar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.383537] (autocar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.386127] (autocar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399864] (-) TimerEvent: {}
+[0.459157] (autocar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.460115] (autocar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499984] (-) TimerEvent: {}
+[0.529153] (autocar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.539590] (autocar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.540052] (autocar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.542048] (autocar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.563511] (autocar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.563663] (autocar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600101] (-) TimerEvent: {}
+[0.700332] (-) TimerEvent: {}
+[0.736320] (autocar_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.775598] (autocar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.785035] (autocar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.800433] (-) TimerEvent: {}
+[0.855422] (autocar_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.879823] (autocar_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.900539] (-) TimerEvent: {}
+[0.951643] (autocar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000644] (-) TimerEvent: {}
+[1.035236] (autocar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.065157] (autocar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.100736] (-) TimerEvent: {}
+[1.201091] (-) TimerEvent: {}
+[1.268178] (autocar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.301203] (-) TimerEvent: {}
+[1.401401] (-) TimerEvent: {}
+[1.501681] (-) TimerEvent: {}
+[1.503114] (autocar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.601798] (-) TimerEvent: {}
+[1.607105] (autocar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.629588] (autocar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.630975] (autocar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.654025] (autocar_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.654187] (autocar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.654251] (autocar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.654305] (autocar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.672183] (autocar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.701899] (-) TimerEvent: {}
+[1.744289] (autocar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.766523] (autocar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.768923] (autocar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.770295] (autocar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.775250] (autocar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.802010] (-) TimerEvent: {}
+[1.851848] (autocar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.854363] (autocar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs\n'}
+[1.861291] (autocar_msgs) CommandEnded: {'returncode': 0}
+[1.864292] (autocar_msgs) JobProgress: {'identifier': 'autocar_msgs', 'progress': 'build'}
+[1.864662] (autocar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs', '--', '-j8', '-l8'], 'cwd': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dj'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1512'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dj'), ('OLDPWD', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1412'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1933'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dj'), ('JOURNAL_STREAM', '8:43268'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/djslaptop:@/tmp/.ICE-unix/1550,unix/djslaptop:/tmp/.ICE-unix/1550'), ('INVOCATION_ID', 'fccab4aa2ee340298dcdc5da319bbce9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1d2464da-5748-4af8-8c23-36b3cb9756a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.902108] (-) TimerEvent: {}
+[1.903047] (autocar_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.903300] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__cpp\x1b[0m\n'}
+[1.914134] (autocar_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.002227] (-) TimerEvent: {}
+[2.102496] (-) TimerEvent: {}
+[2.202714] (-) TimerEvent: {}
+[2.302983] (-) TimerEvent: {}
+[2.403204] (-) TimerEvent: {}
+[2.503468] (-) TimerEvent: {}
+[2.603694] (-) TimerEvent: {}
+[2.685921] (autocar_msgs) StdoutLine: {'line': b'[  1%] Built target autocar_msgs__cpp\n'}
+[2.703798] (-) TimerEvent: {}
+[2.704175] (autocar_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.714130] (autocar_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.715611] (autocar_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.803885] (-) TimerEvent: {}
+[2.837228] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.861312] (autocar_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/path2_d__functions.c.o\x1b[0m\n'}
+[2.861563] (autocar_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/twist2_d__functions.c.o\x1b[0m\n'}
+[2.861763] (autocar_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/state2_d__functions.c.o\x1b[0m\n'}
+[2.862268] (autocar_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/object__functions.c.o\x1b[0m\n'}
+[2.862734] (autocar_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/object_array__functions.c.o\x1b[0m\n'}
+[2.903980] (-) TimerEvent: {}
+[2.943919] (autocar_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/obstacle__functions.c.o\x1b[0m\n'}
+[2.944814] (autocar_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/control__functions.c.o\x1b[0m\n'}
+[2.947024] (autocar_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/polygon__functions.c.o\x1b[0m\n'}
+[2.948209] (autocar_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/polygon_array__functions.c.o\x1b[0m\n'}
+[2.951067] (autocar_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/path_array__functions.c.o\x1b[0m\n'}
+[3.004086] (-) TimerEvent: {}
+[3.019135] (autocar_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/link_array__functions.c.o\x1b[0m\n'}
+[3.021144] (autocar_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_generator_c.dir/rosidl_generator_c/autocar_msgs/msg/detail/vision_steer__functions.c.o\x1b[0m\n'}
+[3.067848] (autocar_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libautocar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.104173] (-) TimerEvent: {}
+[3.111850] (autocar_msgs) StdoutLine: {'line': b'[ 14%] Built target autocar_msgs__rosidl_generator_c\n'}
+[3.122845] (autocar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.126903] (autocar_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.204260] (-) TimerEvent: {}
+[3.304512] (-) TimerEvent: {}
+[3.404773] (-) TimerEvent: {}
+[3.410482] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.434942] (autocar_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/twist2_d__type_support.cpp.o\x1b[0m\n'}
+[3.435339] (autocar_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/state2_d__type_support.cpp.o\x1b[0m\n'}
+[3.435545] (autocar_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/path2_d__type_support.cpp.o\x1b[0m\n'}
+[3.435722] (autocar_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/object__type_support.cpp.o\x1b[0m\n'}
+[3.504867] (-) TimerEvent: {}
+[3.605184] (-) TimerEvent: {}
+[3.705524] (-) TimerEvent: {}
+[3.805839] (-) TimerEvent: {}
+[3.905811] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.906007] (-) TimerEvent: {}
+[3.924742] (autocar_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/object_array__type_support.cpp.o\x1b[0m\n'}
+[3.937716] (autocar_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/state2_d__type_support.cpp.o\x1b[0m\n'}
+[3.943981] (autocar_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/path2_d__type_support.cpp.o\x1b[0m\n'}
+[3.947430] (autocar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.949496] (autocar_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/control__type_support.cpp.o\x1b[0m\n'}
+[4.006116] (-) TimerEvent: {}
+[4.102420] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.106213] (-) TimerEvent: {}
+[4.142913] (autocar_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o\x1b[0m\n'}
+[4.206319] (-) TimerEvent: {}
+[4.255242] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.281867] (autocar_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/path2_d__type_support.cpp.o\x1b[0m\n'}
+[4.306424] (-) TimerEvent: {}
+[4.329380] (autocar_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/state2_d__type_support.cpp.o\x1b[0m\n'}
+[4.376102] (autocar_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/twist2_d__type_support.cpp.o\x1b[0m\n'}
+[4.406277] (autocar_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/state2_d__type_support.cpp.o\x1b[0m\n'}
+[4.406531] (-) TimerEvent: {}
+[4.424211] (autocar_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/object__type_support.cpp.o\x1b[0m\n'}
+[4.425981] (autocar_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/twist2_d__type_support.cpp.o\x1b[0m\n'}
+[4.432161] (autocar_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/object_array__type_support.cpp.o\x1b[0m\n'}
+[4.439938] (autocar_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/polygon__type_support.cpp.o\x1b[0m\n'}
+[4.485119] (autocar_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/object__type_support.cpp.o\x1b[0m\n'}
+[4.497119] (autocar_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/obstacle__type_support.cpp.o\x1b[0m\n'}
+[4.506655] (-) TimerEvent: {}
+[4.515510] (autocar_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/object_array__type_support.cpp.o\x1b[0m\n'}
+[4.551700] (autocar_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/control__type_support.cpp.o\x1b[0m\n'}
+[4.602342] (autocar_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/polygon__type_support.cpp.o\x1b[0m\n'}
+[4.606765] (-) TimerEvent: {}
+[4.629657] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.650312] (autocar_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/polygon_array__type_support.cpp.o\x1b[0m\n'}
+[4.675083] (autocar_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/path2_d__type_support.c.o\x1b[0m\n'}
+[4.697822] (autocar_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/path_array__type_support.cpp.o\x1b[0m\n'}
+[4.706883] (-) TimerEvent: {}
+[4.732469] (autocar_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/state2_d__type_support.c.o\x1b[0m\n'}
+[4.749553] (autocar_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/link_array__type_support.cpp.o\x1b[0m\n'}
+[4.786851] (autocar_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/twist2_d__type_support.c.o\x1b[0m\n'}
+[4.797976] (autocar_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autocar_msgs/msg/vision_steer__type_support.cpp.o\x1b[0m\n'}
+[4.806991] (-) TimerEvent: {}
+[4.836901] (autocar_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/object__type_support.c.o\x1b[0m\n'}
+[4.846002] (autocar_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libautocar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.890282] (autocar_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/object_array__type_support.c.o\x1b[0m\n'}
+[4.902833] (autocar_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/obstacle__type_support.cpp.o\x1b[0m\n'}
+[4.907111] (-) TimerEvent: {}
+[4.920378] (autocar_msgs) StdoutLine: {'line': b'[ 45%] Built target autocar_msgs__rosidl_typesupport_c\n'}
+[4.931254] (autocar_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/polygon_array__type_support.cpp.o\x1b[0m\n'}
+[4.934010] (autocar_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/path_array__type_support.cpp.o\x1b[0m\n'}
+[4.939227] (autocar_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/control__type_support.cpp.o\x1b[0m\n'}
+[4.951576] (autocar_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/obstacle__type_support.c.o\x1b[0m\n'}
+[4.975326] (autocar_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o\x1b[0m\n'}
+[5.006710] (autocar_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/control__type_support.c.o\x1b[0m\n'}
+[5.007176] (-) TimerEvent: {}
+[5.061290] (autocar_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/polygon__type_support.c.o\x1b[0m\n'}
+[5.094177] (autocar_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/polygon__type_support.cpp.o\x1b[0m\n'}
+[5.107298] (-) TimerEvent: {}
+[5.114423] (autocar_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/object__type_support.cpp.o\x1b[0m\n'}
+[5.116040] (autocar_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/polygon_array__type_support.c.o\x1b[0m\n'}
+[5.170473] (autocar_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/path_array__type_support.c.o\x1b[0m\n'}
+[5.207479] (-) TimerEvent: {}
+[5.226751] (autocar_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/link_array__type_support.c.o\x1b[0m\n'}
+[5.280922] (autocar_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autocar_msgs/msg/detail/vision_steer__type_support.c.o\x1b[0m\n'}
+[5.307589] (-) TimerEvent: {}
+[5.333767] (autocar_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libautocar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.383632] (autocar_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/polygon_array__type_support.cpp.o\x1b[0m\n'}
+[5.392245] (autocar_msgs) StdoutLine: {'line': b'[ 58%] Built target autocar_msgs__rosidl_typesupport_introspection_c\n'}
+[5.406683] (autocar_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/path_array__type_support.cpp.o\x1b[0m\n'}
+[5.407673] (-) TimerEvent: {}
+[5.415591] (autocar_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/link_array__type_support.cpp.o\x1b[0m\n'}
+[5.425074] (autocar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/link_array__type_support.cpp.o\x1b[0m\n'}
+[5.431442] (autocar_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autocar_msgs/msg/vision_steer__type_support.cpp.o\x1b[0m\n'}
+[5.507781] (-) TimerEvent: {}
+[5.608084] (-) TimerEvent: {}
+[5.633541] (autocar_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autocar_msgs/msg/detail/vision_steer__type_support.cpp.o\x1b[0m\n'}
+[5.667479] (autocar_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/object_array__type_support.cpp.o\x1b[0m\n'}
+[5.708200] (-) TimerEvent: {}
+[5.808558] (-) TimerEvent: {}
+[5.817667] (autocar_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o\x1b[0m\n'}
+[5.897424] (autocar_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o\x1b[0m\n'}
+[5.905917] (autocar_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/polygon__type_support.cpp.o\x1b[0m\n'}
+[5.908668] (-) TimerEvent: {}
+[5.918832] (autocar_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libautocar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.933222] (autocar_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/polygon_array__type_support.cpp.o\x1b[0m\n'}
+[5.960491] (autocar_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/path_array__type_support.cpp.o\x1b[0m\n'}
+[6.003806] (autocar_msgs) StdoutLine: {'line': b'[ 68%] Built target autocar_msgs__rosidl_typesupport_cpp\n'}
+[6.008766] (-) TimerEvent: {}
+[6.017650] (autocar_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/link_array__type_support.cpp.o\x1b[0m\n'}
+[6.101986] (autocar_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libautocar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.108879] (-) TimerEvent: {}
+[6.209217] (-) TimerEvent: {}
+[6.247882] (autocar_msgs) StdoutLine: {'line': b'[ 70%] Built target autocar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.267175] (autocar_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autocar_msgs/msg/detail/dds_fastrtps/vision_steer__type_support.cpp.o\x1b[0m\n'}
+[6.309330] (-) TimerEvent: {}
+[6.409651] (-) TimerEvent: {}
+[6.509951] (-) TimerEvent: {}
+[6.610242] (-) TimerEvent: {}
+[6.710684] (-) TimerEvent: {}
+[6.776929] (autocar_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libautocar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.810765] (-) TimerEvent: {}
+[6.866927] (autocar_msgs) StdoutLine: {'line': b'[ 71%] Built target autocar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.876973] (autocar_msgs) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.910881] (-) TimerEvent: {}
+[7.011101] (-) TimerEvent: {}
+[7.111478] (-) TimerEvent: {}
+[7.211717] (-) TimerEvent: {}
+[7.311948] (-) TimerEvent: {}
+[7.412175] (-) TimerEvent: {}
+[7.495793] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.512294] (-) TimerEvent: {}
+[7.527452] (autocar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/twist2_d__type_support_c.cpp.o\x1b[0m\n'}
+[7.527684] (autocar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/state2_d__type_support_c.cpp.o\x1b[0m\n'}
+[7.527938] (autocar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/path2_d__type_support_c.cpp.o\x1b[0m\n'}
+[7.528386] (autocar_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/object__type_support_c.cpp.o\x1b[0m\n'}
+[7.528544] (autocar_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/object_array__type_support_c.cpp.o\x1b[0m\n'}
+[7.528751] (autocar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/obstacle__type_support_c.cpp.o\x1b[0m\n'}
+[7.529604] (autocar_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/polygon__type_support_c.cpp.o\x1b[0m\n'}
+[7.529777] (autocar_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/control__type_support_c.cpp.o\x1b[0m\n'}
+[7.612386] (-) TimerEvent: {}
+[7.712661] (-) TimerEvent: {}
+[7.813051] (-) TimerEvent: {}
+[7.913346] (-) TimerEvent: {}
+[8.013629] (-) TimerEvent: {}
+[8.108786] (autocar_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/polygon_array__type_support_c.cpp.o\x1b[0m\n'}
+[8.113732] (-) TimerEvent: {}
+[8.115368] (autocar_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/path_array__type_support_c.cpp.o\x1b[0m\n'}
+[8.119718] (autocar_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/link_array__type_support_c.cpp.o\x1b[0m\n'}
+[8.123009] (autocar_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autocar_msgs/msg/detail/vision_steer__type_support_c.cpp.o\x1b[0m\n'}
+[8.213827] (-) TimerEvent: {}
+[8.314113] (-) TimerEvent: {}
+[8.414398] (-) TimerEvent: {}
+[8.455382] (autocar_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libautocar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.514534] (-) TimerEvent: {}
+[8.537876] (autocar_msgs) StdoutLine: {'line': b'[ 83%] Built target autocar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.547312] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs\x1b[0m\n'}
+[8.557008] (autocar_msgs) StdoutLine: {'line': b'[ 83%] Built target autocar_msgs\n'}
+[8.566142] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__py\x1b[0m\n'}
+[8.576166] (autocar_msgs) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.614620] (-) TimerEvent: {}
+[8.714845] (-) TimerEvent: {}
+[8.815068] (-) TimerEvent: {}
+[8.915416] (-) TimerEvent: {}
+[9.015642] (-) TimerEvent: {}
+[9.115872] (-) TimerEvent: {}
+[9.216094] (-) TimerEvent: {}
+[9.316320] (-) TimerEvent: {}
+[9.416543] (-) TimerEvent: {}
+[9.516765] (-) TimerEvent: {}
+[9.616994] (-) TimerEvent: {}
+[9.717226] (-) TimerEvent: {}
+[9.817457] (-) TimerEvent: {}
+[9.917714] (-) TimerEvent: {}
+[9.920646] (autocar_msgs) StdoutLine: {'line': b'[ 84%] Built target autocar_msgs__py\n'}
+[9.929636] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__python\x1b[0m\n'}
+[9.991768] (autocar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_state2_d_s.c.o\x1b[0m\n'}
+[9.991977] (autocar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_path2_d_s.c.o\x1b[0m\n'}
+[9.992092] (autocar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_twist2_d_s.c.o\x1b[0m\n'}
+[9.992925] (autocar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_object_array_s.c.o\x1b[0m\n'}
+[9.993552] (autocar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_obstacle_s.c.o\x1b[0m\n'}
+[9.993807] (autocar_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_object_s.c.o\x1b[0m\n'}
+[9.994043] (autocar_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_control_s.c.o\x1b[0m\n'}
+[9.994185] (autocar_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_polygon_s.c.o\x1b[0m\n'}
+[10.017825] (-) TimerEvent: {}
+[10.118295] (-) TimerEvent: {}
+[10.149507] (autocar_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_polygon_array_s.c.o\x1b[0m\n'}
+[10.149812] (autocar_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_path_array_s.c.o\x1b[0m\n'}
+[10.153812] (autocar_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_link_array_s.c.o\x1b[0m\n'}
+[10.157898] (autocar_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__python.dir/rosidl_generator_py/autocar_msgs/msg/_vision_steer_s.c.o\x1b[0m\n'}
+[10.218409] (-) TimerEvent: {}
+[10.244300] (autocar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/autocar_msgs/libautocar_msgs__python.so\x1b[0m\n'}
+[10.288222] (autocar_msgs) StdoutLine: {'line': b'[ 95%] Built target autocar_msgs__python\n'}
+[10.297575] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.297720] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.297785] (autocar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target autocar_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.318320] (autocar_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autocar_msgs/_autocar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.318541] (-) TimerEvent: {}
+[10.319260] (autocar_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autocar_msgs/_autocar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.320826] (autocar_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/autocar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autocar_msgs/_autocar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.418668] (-) TimerEvent: {}
+[10.422445] (autocar_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/autocar_msgs/autocar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.422659] (autocar_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/autocar_msgs/autocar_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.425872] (autocar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/autocar_msgs/autocar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.460818] (autocar_msgs) StdoutLine: {'line': b'[100%] Built target autocar_msgs__rosidl_typesupport_c__pyext\n'}
+[10.460968] (autocar_msgs) StdoutLine: {'line': b'[100%] Built target autocar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[10.491715] (autocar_msgs) StdoutLine: {'line': b'[100%] Built target autocar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.502681] (autocar_msgs) CommandEnded: {'returncode': 0}
+[10.518826] (-) TimerEvent: {}
+[10.619133] (-) TimerEvent: {}
+[10.674646] (autocar_msgs) JobProgress: {'identifier': 'autocar_msgs', 'progress': 'install'}
+[10.684158] (autocar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs'], 'cwd': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dj'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1512'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dj'), ('OLDPWD', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1412'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1933'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dj'), ('JOURNAL_STREAM', '8:43268'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/djslaptop:@/tmp/.ICE-unix/1550,unix/djslaptop:/tmp/.ICE-unix/1550'), ('INVOCATION_ID', 'fccab4aa2ee340298dcdc5da319bbce9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1d2464da-5748-4af8-8c23-36b3cb9756a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.693674] (autocar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.694003] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/ament_index/resource_index/rosidl_interfaces/autocar_msgs\n'}
+[10.694100] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs\n'}
+[10.694240] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg\n'}
+[10.694330] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/polygon.h\n'}
+[10.694396] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail\n'}
+[10.694713] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__struct.h\n'}
+[10.694792] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__type_support.h\n'}
+[10.694854] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__struct.h\n'}
+[10.694913] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__type_support.h\n'}
+[10.695005] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__struct.h\n'}
+[10.695118] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__functions.c\n'}
+[10.695172] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__type_support.h\n'}
+[10.695226] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__type_support.h\n'}
+[10.695340] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__struct.h\n'}
+[10.695441] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__struct.h\n'}
+[10.695519] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__functions.c\n'}
+[10.695605] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__functions.h\n'}
+[10.695724] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__functions.h\n'}
+[10.695860] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__type_support.h\n'}
+[10.695978] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__functions.h\n'}
+[10.696095] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__functions.c\n'}
+[10.696241] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__struct.h\n'}
+[10.696362] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__struct.h\n'}
+[10.696461] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__functions.h\n'}
+[10.696557] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__functions.h\n'}
+[10.696644] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__functions.c\n'}
+[10.696752] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__type_support.h\n'}
+[10.696860] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__functions.h\n'}
+[10.697007] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__type_support.h\n'}
+[10.697116] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__struct.h\n'}
+[10.697220] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__functions.c\n'}
+[10.697323] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__functions.c\n'}
+[10.697438] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__functions.h\n'}
+[10.697526] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__struct.h\n'}
+[10.697638] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__functions.c\n'}
+[10.697756] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__functions.h\n'}
+[10.697870] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__functions.c\n'}
+[10.697989] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__type_support.h\n'}
+[10.698125] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__functions.h\n'}
+[10.698233] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__type_support.h\n'}
+[10.698316] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__functions.h\n'}
+[10.698431] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__functions.c\n'}
+[10.698544] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__struct.h\n'}
+[10.698652] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__struct.h\n'}
+[10.698760] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__functions.h\n'}
+[10.698873] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__functions.c\n'}
+[10.698987] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__struct.h\n'}
+[10.699096] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__type_support.h\n'}
+[10.699206] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__functions.c\n'}
+[10.699390] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__type_support.h\n'}
+[10.699516] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__functions.c\n'}
+[10.699629] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__type_support.h\n'}
+[10.699715] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__functions.h\n'}
+[10.699829] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/twist2_d.h\n'}
+[10.699934] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/state2_d.h\n'}
+[10.700039] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/object.h\n'}
+[10.700144] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.700251] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/control.h\n'}
+[10.700357] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/obstacle.h\n'}
+[10.700463] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/path_array.h\n'}
+[10.700588] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/link_array.h\n'}
+[10.700698] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/vision_steer.h\n'}
+[10.700869] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/polygon_array.h\n'}
+[10.701013] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/object_array.h\n'}
+[10.701154] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/path2_d.h\n'}
+[10.701404] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/environment/library_path.sh\n'}
+[10.701568] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/environment/library_path.dsv\n'}
+[10.701809] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_generator_c.so\n'}
+[10.702305] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_generator_c.so" to ""\n'}
+[10.702422] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs\n'}
+[10.702498] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg\n'}
+[10.702555] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail\n'}
+[10.702644] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__rosidl_typesupport_fastrtps_c.h\n'}
+[10.702731] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__rosidl_typesupport_fastrtps_c.h\n'}
+[10.702819] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__rosidl_typesupport_fastrtps_c.h\n'}
+[10.702930] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[10.703022] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.703141] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[10.703256] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__rosidl_typesupport_fastrtps_c.h\n'}
+[10.703564] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_c.h\n'}
+[10.703678] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__rosidl_typesupport_fastrtps_c.h\n'}
+[10.703784] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.703896] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.704009] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__rosidl_typesupport_fastrtps_c.h\n'}
+[10.704099] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.704318] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[10.704846] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.704948] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs\n'}
+[10.705056] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg\n'}
+[10.705113] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail\n'}
+[10.705201] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.705290] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.705374] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.705478] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/dds_fastrtps\n'}
+[10.705594] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.705708] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.705821] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.705959] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.706051] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.706166] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.706279] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.706392] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.706505] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.706618] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.706842] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.707500] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.707679] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs\n'}
+[10.707767] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg\n'}
+[10.707831] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail\n'}
+[10.707964] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[10.708068] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__type_support.c\n'}
+[10.708153] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__type_support.c\n'}
+[10.708212] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__type_support.c\n'}
+[10.708294] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h\n'}
+[10.708379] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__type_support.c\n'}
+[10.708483] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__type_support.c\n'}
+[10.708602] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__type_support.c\n'}
+[10.708718] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__type_support.c\n'}
+[10.708833] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__rosidl_typesupport_introspection_c.h\n'}
+[10.708943] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__rosidl_typesupport_introspection_c.h\n'}
+[10.709057] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__type_support.c\n'}
+[10.709177] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__rosidl_typesupport_introspection_c.h\n'}
+[10.709289] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__type_support.c\n'}
+[10.709432] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__rosidl_typesupport_introspection_c.h\n'}
+[10.709520] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__type_support.c\n'}
+[10.709640] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__type_support.c\n'}
+[10.709792] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__rosidl_typesupport_introspection_c.h\n'}
+[10.709960] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__rosidl_typesupport_introspection_c.h\n'}
+[10.710133] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h\n'}
+[10.710320] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h\n'}
+[10.710515] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__type_support.c\n'}
+[10.710692] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__rosidl_typesupport_introspection_c.h\n'}
+[10.710809] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__rosidl_typesupport_introspection_c.h\n'}
+[10.710947] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.711730] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[10.711907] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.712085] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_c.so\n'}
+[10.712463] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[10.712655] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs\n'}
+[10.712758] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg\n'}
+[10.712963] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/polygon.hpp\n'}
+[10.713089] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/control.hpp\n'}
+[10.713196] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail\n'}
+[10.713302] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__type_support.hpp\n'}
+[10.713407] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__builder.hpp\n'}
+[10.713514] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__struct.hpp\n'}
+[10.713631] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__builder.hpp\n'}
+[10.713744] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__type_support.hpp\n'}
+[10.713860] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__builder.hpp\n'}
+[10.713964] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__traits.hpp\n'}
+[10.714069] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__type_support.hpp\n'}
+[10.714174] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__struct.hpp\n'}
+[10.714278] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__traits.hpp\n'}
+[10.714405] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__traits.hpp\n'}
+[10.714585] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__type_support.hpp\n'}
+[10.714716] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__builder.hpp\n'}
+[10.714822] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__traits.hpp\n'}
+[10.714928] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__struct.hpp\n'}
+[10.715037] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__struct.hpp\n'}
+[10.715146] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__builder.hpp\n'}
+[10.715251] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__traits.hpp\n'}
+[10.715340] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__traits.hpp\n'}
+[10.715455] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__type_support.hpp\n'}
+[10.715539] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__builder.hpp\n'}
+[10.715607] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__struct.hpp\n'}
+[10.715673] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__builder.hpp\n'}
+[10.715726] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__struct.hpp\n'}
+[10.715791] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__struct.hpp\n'}
+[10.715856] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__traits.hpp\n'}
+[10.715912] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__struct.hpp\n'}
+[10.715979] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__type_support.hpp\n'}
+[10.716045] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__type_support.hpp\n'}
+[10.716129] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__type_support.hpp\n'}
+[10.716225] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__struct.hpp\n'}
+[10.716327] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__traits.hpp\n'}
+[10.716423] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__builder.hpp\n'}
+[10.716523] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__traits.hpp\n'}
+[10.716619] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__traits.hpp\n'}
+[10.716715] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__struct.hpp\n'}
+[10.716815] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__type_support.hpp\n'}
+[10.716911] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__struct.hpp\n'}
+[10.717013] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__traits.hpp\n'}
+[10.717110] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__struct.hpp\n'}
+[10.717211] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__type_support.hpp\n'}
+[10.717307] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__type_support.hpp\n'}
+[10.717405] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__builder.hpp\n'}
+[10.717502] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__builder.hpp\n'}
+[10.717599] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__type_support.hpp\n'}
+[10.717699] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__builder.hpp\n'}
+[10.717796] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__builder.hpp\n'}
+[10.717892] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__traits.hpp\n'}
+[10.717990] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/obstacle.hpp\n'}
+[10.718081] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/object_array.hpp\n'}
+[10.718169] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/state2_d.hpp\n'}
+[10.718259] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/vision_steer.hpp\n'}
+[10.718351] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.718442] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/path_array.hpp\n'}
+[10.718532] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/path2_d.hpp\n'}
+[10.718622] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/twist2_d.hpp\n'}
+[10.718713] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/link_array.hpp\n'}
+[10.718803] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/polygon_array.hpp\n'}
+[10.718900] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/object.hpp\n'}
+[10.719042] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs\n'}
+[10.719122] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg\n'}
+[10.719188] (-) TimerEvent: {}
+[10.719364] (autocar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail\n'}
+[10.719481] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.719554] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__type_support.cpp\n'}
+[10.719621] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.719677] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.719800] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.719883] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__type_support.cpp\n'}
+[10.719985] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.720092] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.720198] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.720292] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__type_support.cpp\n'}
+[10.720393] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path_array__type_support.cpp\n'}
+[10.720494] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.720595] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.720699] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.720797] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/control__type_support.cpp\n'}
+[10.720901] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/vision_steer__type_support.cpp\n'}
+[10.721003] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__type_support.cpp\n'}
+[10.721105] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.721204] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/object__type_support.cpp\n'}
+[10.721309] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/link_array__type_support.cpp\n'}
+[10.721411] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon_array__type_support.cpp\n'}
+[10.721513] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__type_support.cpp\n'}
+[10.721614] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/obstacle__type_support.cpp\n'}
+[10.721717] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/include/autocar_msgs/msg/detail/polygon__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.721914] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.722503] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.722607] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_cpp.so\n'}
+[10.723011] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[10.723126] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/environment/pythonpath.sh\n'}
+[10.723247] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/environment/pythonpath.dsv\n'}
+[10.723664] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/__init__.py\n'}
+[10.749298] (autocar_msgs) StdoutLine: {'line': b"Compiling '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/__init__.py'...\n"}
+[10.752538] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg\n'}
+[10.752732] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_path_array_s.c\n'}
+[10.752880] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_object_s.c\n'}
+[10.752976] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_twist2_d_s.c\n'}
+[10.753107] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_obstacle.py\n'}
+[10.753222] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_object_array_s.c\n'}
+[10.753287] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_polygon_array.py\n'}
+[10.753370] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_path2_d.py\n'}
+[10.753439] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_vision_steer_s.c\n'}
+[10.753498] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_path2_d_s.c\n'}
+[10.753566] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_polygon_array_s.c\n'}
+[10.753634] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_link_array_s.c\n'}
+[10.753701] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_state2_d_s.c\n'}
+[10.753773] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/__init__.py\n'}
+[10.753854] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_state2_d.py\n'}
+[10.753948] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_polygon.py\n'}
+[10.754045] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_control.py\n'}
+[10.754141] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_vision_steer.py\n'}
+[10.754236] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_object_array.py\n'}
+[10.754330] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_obstacle_s.c\n'}
+[10.754476] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_polygon_s.c\n'}
+[10.754555] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_twist2_d.py\n'}
+[10.754627] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_link_array.py\n'}
+[10.754745] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_object.py\n'}
+[10.754818] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_control_s.c\n'}
+[10.754913] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/msg/_path_array.py\n'}
+[10.755204] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/autocar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.755786] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/autocar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.755973] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/autocar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.756555] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/autocar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.756721] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/autocar_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.757227] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages/autocar_msgs/autocar_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.757334] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__python.so\n'}
+[10.757795] (autocar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/libautocar_msgs__python.so" to ""\n'}
+[10.757912] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Path2D.idl\n'}
+[10.758030] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/State2D.idl\n'}
+[10.758146] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Twist2D.idl\n'}
+[10.758280] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Object.idl\n'}
+[10.758371] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/ObjectArray.idl\n'}
+[10.758530] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Obstacle.idl\n'}
+[10.758672] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Control.idl\n'}
+[10.758798] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Polygon.idl\n'}
+[10.758938] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/PolygonArray.idl\n'}
+[10.759045] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/PathArray.idl\n'}
+[10.759180] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/LinkArray.idl\n'}
+[10.759336] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/VisionSteer.idl\n'}
+[10.759534] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Path2D.msg\n'}
+[10.759638] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/State2D.msg\n'}
+[10.759778] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Twist2D.msg\n'}
+[10.759960] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Object.msg\n'}
+[10.760107] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/ObjectArray.msg\n'}
+[10.760223] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Obstacle.msg\n'}
+[10.760325] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Control.msg\n'}
+[10.760408] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/Polygon.msg\n'}
+[10.760547] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/PolygonArray.msg\n'}
+[10.760677] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/PathArray.msg\n'}
+[10.760835] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/LinkArray.msg\n'}
+[10.761022] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/msg/VisionSteer.msg\n'}
+[10.761172] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/ament_index/resource_index/package_run_dependencies/autocar_msgs\n'}
+[10.761348] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/ament_index/resource_index/parent_prefix_path/autocar_msgs\n'}
+[10.761490] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/environment/ament_prefix_path.sh\n'}
+[10.761607] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/environment/ament_prefix_path.dsv\n'}
+[10.761753] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/environment/path.sh\n'}
+[10.761885] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/environment/path.dsv\n'}
+[10.762026] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/local_setup.bash\n'}
+[10.762165] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/local_setup.sh\n'}
+[10.762332] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/local_setup.zsh\n'}
+[10.762458] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/local_setup.dsv\n'}
+[10.762596] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.dsv\n'}
+[10.762806] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/ament_index/resource_index/packages/autocar_msgs\n'}
+[10.763020] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_generator_cExport.cmake\n'}
+[10.763142] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.763309] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.763573] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.763752] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[10.763863] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.764065] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_generator_cppExport.cmake\n'}
+[10.764246] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.764404] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.764544] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[10.764693] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.764795] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.764940] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.765080] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.765249] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.765370] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.765516] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.765650] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.765793] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgsConfig.cmake\n'}
+[10.765890] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgsConfig-version.cmake\n'}
+[10.766032] (autocar_msgs) StdoutLine: {'line': b'-- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.xml\n'}
+[10.768160] (autocar_msgs) CommandEnded: {'returncode': 0}
+[10.819363] (-) TimerEvent: {}
+[10.919691] (-) TimerEvent: {}
+[10.958653] (autocar_msgs) JobEnded: {'identifier': 'autocar_msgs', 'rc': 0}
+[10.959141] (-) EventReactorShutdown: {}

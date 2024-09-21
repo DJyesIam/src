@@ -1,0 +1,12 @@
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/Path2D.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/State2D.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/Twist2D.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/Object.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/ObjectArray.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/Obstacle.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/Control.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/Polygon.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/PolygonArray.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/PathArray.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/LinkArray.idl
+/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs/rosidl_adapter/autocar_msgs:msg/VisionSteer.idl

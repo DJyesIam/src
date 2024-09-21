@@ -1,0 +1,109 @@
+[0.019s] Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_map -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map
+[0.079s] -- The C compiler identification is GNU 9.4.0
+[0.145s] -- The CXX compiler identification is GNU 9.4.0
+[0.151s] -- Check for working C compiler: /usr/bin/cc
+[0.218s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.219s] -- Detecting C compiler ABI info
+[0.284s] -- Detecting C compiler ABI info - done
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.370s] -- Detecting CXX compiler ABI info
+[0.444s] -- Detecting CXX compiler ABI info - done
+[0.456s] -- Detecting CXX compile features
+[0.456s] -- Detecting CXX compile features - done
+[0.458s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.480s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.480s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.671s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.672s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.706s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.774s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.798s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.868s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Found autocar_msgs: 0.0.0 (/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/cmake)
+[1.013s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.076s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.080s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.081s] -- Added test 'lint_cmake' to check CMake code style
+[1.082s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.084s] -- Added test 'xmllint' to check XML markup files
+[1.087s] -- Configuring done
+[1.089s] -- Generating done
+[1.090s] -- Build files have been written to: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map
+[1.096s] Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_map -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map
+[1.098s] Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map -- -j8 -l8
+[1.135s] Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map -- -j8 -l8
+[1.155s] Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map
+[1.163s] -- Install configuration: ""
+[1.163s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/path
+[1.163s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/path/path_link.py
+[1.163s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data
+[1.163s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/KC_base.csv
+[1.163s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/boong
+[1.164s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/boong/boong_parking.csv
+[1.164s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/boong/boong_revpark.csv
+[1.164s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/boong/boong_lane.csv
+[1.164s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/boong/boong_track.csv
+[1.164s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech
+[1.164s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/uturn.csv
+[1.164s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/parking.csv
+[1.164s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/linear_path_for_yaw.csv
+[1.165s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/rev_global.csv
+[1.165s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/tunnel.csv
+[1.165s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/park_test.csv
+[1.165s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/htech_park.csv
+[1.165s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/tunnel_map.csv
+[1.166s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/htech_cw.csv
+[1.166s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/htech_track.csv
+[1.166s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/htech_ccw.csv
+[1.166s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/delivery.csv
+[1.167s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/DR_test.csv
+[1.167s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/revpark.csv
+[1.167s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/cone_test.csv
+[1.167s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/parking_line.csv
+[1.167s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/linear_path.csv
+[1.168s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/htech/tunnel_lane.csv
+[1.168s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/code
+[1.168s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/code/make_parking.py
+[1.168s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/code/reverse.py
+[1.168s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/code/to_zero.py
+[1.168s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/code/coordinate.py
+[1.169s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/code/add_link.py
+[1.169s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/code/plot.py
+[1.169s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/code/lane_dist.py
+[1.169s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/ST_base.csv
+[1.169s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity
+[1.169s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/track_org.csv
+[1.170s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/modify.csv
+[1.170s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/qualifier.csv
+[1.170s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/parking.csv
+[1.171s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/track.csv
+[1.171s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/tunnel_map.csv
+[1.171s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/revpark2.csv
+[1.171s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/revpark.csv
+[1.171s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/data/kcity/revpark1.csv
+[1.172s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/autocar_map/link_visualizer.py
+[1.172s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/autocar_map/obstacle_pub.py
+[1.172s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/autocar_map/obstacle_viz.py
+[1.173s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/autocar_map/wall_following.py
+[1.173s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/autocar_map/wall_path_and_lane.py
+[1.173s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/autocar_map/parking_map.py
+[1.173s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/ament_index/resource_index/package_run_dependencies/autocar_map
+[1.173s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/ament_index/resource_index/parent_prefix_path/autocar_map
+[1.173s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/environment/ament_prefix_path.sh
+[1.174s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/environment/ament_prefix_path.dsv
+[1.174s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/environment/path.sh
+[1.174s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/environment/path.dsv
+[1.174s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/local_setup.bash
+[1.174s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/local_setup.sh
+[1.175s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/local_setup.zsh
+[1.175s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/local_setup.dsv
+[1.175s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.dsv
+[1.175s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/ament_index/resource_index/packages/autocar_map
+[1.175s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/cmake/autocar_mapConfig.cmake
+[1.175s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/cmake/autocar_mapConfig-version.cmake
+[1.175s] -- Installing: /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.xml
+[1.178s] Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map

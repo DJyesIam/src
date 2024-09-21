@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autocar_msgs/msg/LinkArray.msg
+// generated code does not contain a copyright notice
+
+
+module autocar_msgs {
+  module msg {
+    struct LinkArray {
+      int32 link_num;
+
+      int32 closest_wp;
+
+      string mode;
+
+      int32 traffic_stop_wp;
+
+      int32 parking_stop_wp;
+
+      string direction;
+
+      string next_path;
+    };
+  };
+};

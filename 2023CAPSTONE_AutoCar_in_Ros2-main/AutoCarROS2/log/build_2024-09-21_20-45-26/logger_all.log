@@ -1,0 +1,426 @@
+[0.173s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.173s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3b0e1e5d00>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3b0e1e5d00>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f3b0e1f7220>)
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.298s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_map) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'autocar_map' with type 'ros.ament_cmake' and name 'autocar_map'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_msgs) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'autocar_msgs' with type 'ros.ament_cmake' and name 'autocar_msgs'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_nav) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'autocar_nav' with type 'ros.ament_cmake' and name 'autocar_nav'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(autocar_odom) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'autocar_odom' with type 'ros.ament_cmake' and name 'autocar_odom'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(launches) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'launches' with type 'ros.ament_cmake' and name 'launches'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(resources) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.332s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 262 installed packages in /opt/ros/foxy
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs', 'merge_install': False, 'path': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autocar_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom', 'merge_install': False, 'path': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_odom', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'launches' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches', 'merge_install': False, 'path': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/launches', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map', 'merge_install': False, 'path': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_map', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav', 'merge_install': False, 'path': '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_nav', 'symlink_install': False, 'test_result_base': None}
+[0.397s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.398s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs' with build type 'ament_cmake'
+[0.399s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs'
+[0.400s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_odom' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_odom'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/launches' with build type 'ament_cmake'
+[0.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/launches'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs -- -j8 -l8
+[0.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_odom -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/launches -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs -- -j8 -l8
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs
+[0.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_msgs)
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_msgs
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs' for CMake module files
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs' for CMake config files
+[0.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'cmake_prefix_path')
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.ps1'
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.dsv'
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.sh'
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib'
+[0.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'ld_library_path_lib')
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.sh'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/bin'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/pkgconfig/autocar_msgs.pc'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages'
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'pythonpath')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.dsv'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.sh'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/bin'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.sh'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.bash'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.zsh'
+[0.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/colcon-core/packages/autocar_msgs)
+[1.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_msgs)
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs' for CMake module files
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs' for CMake config files
+[1.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'cmake_prefix_path')
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib'
+[1.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'ld_library_path_lib')
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.dsv'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.sh'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/bin'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/pkgconfig/autocar_msgs.pc'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages'
+[1.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'pythonpath')
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.sh'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/bin'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.ps1'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.sh'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.bash'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/autocar_msgs/package.zsh'
+[1.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/share/colcon-core/packages/autocar_msgs)
+[1.120s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_map' with build type 'ament_cmake'
+[1.120s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_map'
+[1.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.126s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_nav' with build type 'ament_cmake'
+[1.127s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_nav'
+[1.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_map -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_nav -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav
+[1.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/launches -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches -- -j8 -l8
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches -- -j8 -l8
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches
+[1.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launches)
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches' for CMake module files
+[1.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/launches
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches' for CMake config files
+[1.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('launches', 'cmake_prefix_path')
+[1.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/hook/cmake_prefix_path.ps1'
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/hook/cmake_prefix_path.dsv'
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/hook/cmake_prefix_path.sh'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/bin'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/lib/pkgconfig/launches.pc'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/lib/python3.8/site-packages'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/bin'
+[1.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.bash'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.zsh'
+[1.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/colcon-core/packages/launches)
+[1.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launches)
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches' for CMake module files
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches' for CMake config files
+[1.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('launches', 'cmake_prefix_path')
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/hook/cmake_prefix_path.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/hook/cmake_prefix_path.dsv'
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/hook/cmake_prefix_path.sh'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/bin'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/lib/pkgconfig/launches.pc'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/lib/python3.8/site-packages'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/bin'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.dsv'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.sh'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.bash'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/launches/package.zsh'
+[1.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/launches/share/colcon-core/packages/launches)
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_odom -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom
+[1.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom -- -j8 -l8
+[1.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom -- -j8 -l8
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom
+[1.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_odom)
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom' for CMake module files
+[1.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_odom
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom' for CMake config files
+[1.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_odom', 'cmake_prefix_path')
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/hook/cmake_prefix_path.ps1'
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/hook/cmake_prefix_path.dsv'
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/hook/cmake_prefix_path.sh'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/bin'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/pkgconfig/autocar_odom.pc'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/python3.8/site-packages'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/bin'
+[1.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.ps1'
+[1.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.dsv'
+[1.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.sh'
+[1.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.bash'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.zsh'
+[1.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/colcon-core/packages/autocar_odom)
+[1.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_odom)
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom' for CMake module files
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom' for CMake config files
+[1.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_odom', 'cmake_prefix_path')
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/hook/cmake_prefix_path.ps1'
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/hook/cmake_prefix_path.dsv'
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/hook/cmake_prefix_path.sh'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/bin'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/pkgconfig/autocar_odom.pc'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/lib/python3.8/site-packages'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/bin'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.ps1'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.dsv'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.sh'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.bash'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/autocar_odom/package.zsh'
+[1.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_odom/share/colcon-core/packages/autocar_odom)
+[2.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_map -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map
+[2.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map -- -j8 -l8
+[2.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map -- -j8 -l8
+[2.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map
+[2.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_map)
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map' for CMake module files
+[2.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_map
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map' for CMake config files
+[2.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_map', 'cmake_prefix_path')
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.ps1'
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.dsv'
+[2.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.sh'
+[2.302s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/bin'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/pkgconfig/autocar_map.pc'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/python3.8/site-packages'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/bin'
+[2.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.ps1'
+[2.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.dsv'
+[2.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.sh'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.bash'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.zsh'
+[2.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/colcon-core/packages/autocar_map)
+[2.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_map)
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map' for CMake module files
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map' for CMake config files
+[2.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_map', 'cmake_prefix_path')
+[2.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.ps1'
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.dsv'
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.sh'
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib'
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/bin'
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/pkgconfig/autocar_map.pc'
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/lib/python3.8/site-packages'
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/bin'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.ps1'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.dsv'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.sh'
+[2.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.bash'
+[2.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/autocar_map/package.zsh'
+[2.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_map/share/colcon-core/packages/autocar_map)
+[3.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_nav -DCMAKE_INSTALL_PREFIX=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav
+[3.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav -- -j8 -l8
+[3.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav -- -j8 -l8
+[3.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav
+[3.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_nav)
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav' for CMake module files
+[3.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav' returned '0': AMENT_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/build/autocar_nav
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav' for CMake config files
+[3.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'cmake_prefix_path')
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.ps1'
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.dsv'
+[3.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.sh'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/lib'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/bin'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/lib/pkgconfig/autocar_nav.pc'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/lib/python3.8/site-packages'
+[3.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'pythonpath')
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/pythonpath.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/pythonpath.dsv'
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/pythonpath.sh'
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/bin'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.ps1'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.dsv'
+[3.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.sh'
+[3.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.bash'
+[3.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.zsh'
+[3.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/colcon-core/packages/autocar_nav)
+[3.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_nav)
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav' for CMake module files
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav' for CMake config files
+[3.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'cmake_prefix_path')
+[3.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.ps1'
+[3.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.dsv'
+[3.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.sh'
+[3.161s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/lib'
+[3.161s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/bin'
+[3.161s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/lib/pkgconfig/autocar_nav.pc'
+[3.161s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/lib/python3.8/site-packages'
+[3.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'pythonpath')
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/pythonpath.ps1'
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/pythonpath.dsv'
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/hook/pythonpath.sh'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/bin'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.ps1'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.dsv'
+[3.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.sh'
+[3.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.bash'
+[3.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/autocar_nav/package.zsh'
+[3.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/autocar_nav/share/colcon-core/packages/autocar_nav)
+[3.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.166s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.166s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.166s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.171s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.183s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/local_setup.ps1'
+[3.185s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/_local_setup_util_ps1.py'
+[3.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/setup.ps1'
+[3.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/local_setup.sh'
+[3.187s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/_local_setup_util_sh.py'
+[3.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/setup.sh'
+[3.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/local_setup.bash'
+[3.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/setup.bash'
+[3.189s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/local_setup.zsh'
+[3.190s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/install/setup.zsh'

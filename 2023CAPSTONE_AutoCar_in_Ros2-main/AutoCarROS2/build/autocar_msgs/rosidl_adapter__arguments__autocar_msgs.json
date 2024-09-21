@@ -1,0 +1,17 @@
+{
+  "package_name": "autocar_msgs",
+  "non_idl_tuples": [
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/Path2D.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/State2D.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/Twist2D.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/Object.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/ObjectArray.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/Obstacle.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/Control.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/Polygon.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/PolygonArray.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/PathArray.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/LinkArray.msg",
+    "/home/dj/ros2_ws/src/2023CAPSTONE_AutoCar_in_Ros2-main/AutoCarROS2/autocar_msgs:msg/VisionSteer.msg"
+  ]
+}
