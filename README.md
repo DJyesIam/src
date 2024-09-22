@@ -12,7 +12,6 @@ alias odom='foxy && cd ~/ros2_ws && inst && ros2 launch launches odom_launch.py'
 alias path='foxy && cd ~/ros2_ws && inst && ros2 launch launches path_launch.py'
 alias all='foxy && cd ~/ros2_ws && inst && ros2 launch combined_package combined_launch.py'
 ```
-- - -
 # RTKLIB 관련 설정하기
 RTKLIB은 다른 패키지와 달리 ROS와는 별개의 패키지이고, 추가로 설정해주어야 하는 게 조금 있다.  
 아래의 코드를 터미널에서 한 줄씩 실행한다. 실패하면 경로를 확인하라.  
