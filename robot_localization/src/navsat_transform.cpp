@@ -187,6 +187,9 @@ NavSatTransform::NavSatTransform(const rclcpp::NodeOptions & options)
   if (publish_gps_) {
     filtered_gps_pub_ =
       this->create_publisher<sensor_msgs::msg::NavSatFix>("gps/filtered", rclcpp::QoS(10));
+
+    gps_string_pub_ =
+      this->create_publisher<std_msgs::msg::String>("gps_location", rclcpp::QoS(10));
   }
 
   // Sleep for the parameterized amount of time, to give
@@ -219,7 +222,11 @@ void NavSatTransform::transformCallback()
 
     if (publish_gps_) {
       auto odom_gps = std::make_unique<sensor_msgs::msg::NavSatFix>();
+      auto gps_string = std_msgs::msg::String();
       if (prepareFilteredGps(odom_gps.get())) {
+        gps_string.data = 
+        "(" + std::to_string(odom_gps->latitude) + ", " + std::to_string(odom_gps->longitude) + "); ";
+        gps_string_pub_->publish(std::move(gps_string));
         filtered_gps_pub_->publish(std::move(odom_gps));
       }
     }

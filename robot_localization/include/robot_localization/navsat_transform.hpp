@@ -44,6 +44,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/imu.hpp>
 #include <sensor_msgs/msg/nav_sat_fix.hpp>
+#include <std_msgs/msg/string.hpp>
 #include <tf2/LinearMath/Transform.h>
 #include <tf2_ros/buffer.h>
 #include <tf2_ros/static_transform_broadcaster.h>
@@ -220,6 +221,11 @@ private:
    * @brief Navsatfix publisher
    */
   rclcpp::Publisher<sensor_msgs::msg::NavSatFix>::SharedPtr filtered_gps_pub_;
+
+  /**
+   * @brief GPS String publisher
+   */
+  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr gps_string_pub_;
 
   /**
    * @brief The frame_id of the GPS message (specifies mounting location)
