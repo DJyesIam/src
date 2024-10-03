@@ -145,7 +145,7 @@ class odomPublisher(Node):
 
 	def tunnel_yaw_cb(self, msg):
 		self.tunnel_yaw = msg.data
-		self.get_logger().info('tunnel_yaw: %s' % self.tunnel_yaw)
+		# self.get_logger().info('tunnel_yaw: %s' % self.tunnel_yaw)
 	def gps_callback(self, gps):
 
 		transformer = Transformer.from_crs('EPSG:4326', 'EPSG:5179')
@@ -303,9 +303,9 @@ class odomPublisher(Node):
 		if len(self.yaw_offset_array) > corr_length and self.time > time_period:
 			self.corr_uturn = True
 
-		self.get_logger().info(f'time : {self.time}')
-		self.get_logger().info(f'len : {len(self.yaw_offset_array)}')
-		self.get_logger().info(f'corr_mode : {self.corr_uturn}')
+		# self.get_logger().info(f'time : {self.time}')
+		# self.get_logger().info(f'len : {len(self.yaw_offset_array)}')
+		# self.get_logger().info(f'corr_mode : {self.corr_uturn}')
 
 
 	def imu_callback(self, imu):
@@ -314,7 +314,7 @@ class odomPublisher(Node):
 
 		imu_yaw = euler_from_quaternion(imu.orientation.x, imu.orientation.y, imu.orientation.z, imu.orientation.w)
 		self.imu_yaw = imu_yaw + np.deg2rad(self.yaw_init) + self.tunnel_yaw # 오차 보정 #73
-		self.get_logger().info(f'yaw_offset : {round(np.rad2deg(-self.yaw_offset),2)}\t offset_av : {round(np.rad2deg(-self.yaw_offset_av),2)}\t yaw_init : {round(self.yaw_init,2)}\t yaw_offset_av_realtime : {round(np.rad2deg(self.yaw_offset_av_print),2)}' )
+		# self.get_logger().info(f'yaw_offset : {round(np.rad2deg(-self.yaw_offset),2)}\t offset_av : {round(np.rad2deg(-self.yaw_offset_av),2)}\t yaw_init : {round(self.yaw_init,2)}\t yaw_offset_av_realtime : {round(np.rad2deg(self.yaw_offset_av_print),2)}' )
 		# self.get_logger().info(f'yaw_offset : {round(np.rad2deg(-self.yaw_offset),2)}\t off	set_av : {round(np.rad2deg(-self.yaw_offset_av),2)}\t yaw_init : {round(self.yaw_init,2)}\t yaw_offset_av_realtime : {round(np.rad2deg(self.yaw_offset_av_print),2)}' )
 		# self.get_logger().info(f'yaw_offset_array : {self.yaw_offset_array}')
 		# self.get_logger().info('corr_mode: %s' % self.corr_mode)

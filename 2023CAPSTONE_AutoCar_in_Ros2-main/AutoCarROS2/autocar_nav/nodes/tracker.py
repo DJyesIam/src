@@ -273,6 +273,7 @@ class PathTracker(Node):
                 self.kyaw = 1.0
 
         self.set_vehicle_command(sigma_t)
+
         self.lock.release()
 
 

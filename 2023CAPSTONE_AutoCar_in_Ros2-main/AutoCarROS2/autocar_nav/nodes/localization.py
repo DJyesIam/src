@@ -289,7 +289,7 @@ class Localization(Node):
         #     self.dr_mode = True
 
         if self.dr_state is not None:
-            self.get_logger().info(self.odom_state)
+            # self.get_logger().info(self.odom_state) # 크아악
             if self.dr_mode == True:
                 self.update_state(self.dr_state)
             else:
