@@ -86,8 +86,9 @@ class Path(Node):
 
 def test_track():
     base_file = file_path + '/ST_base.csv'
-    global_file = file_path + '/relative_waypoints.csv'
-    # global_file = file_path + '/htech/delivery.csv'
+    #global_file = file_path + '/relative_waypoints.csv'
+    global_file = file_path + '/moving_square_20x20_noLink.csv'
+    #global_file = file_path + '/htech/delivery.csv'
     parking_file = None
     revpark_file = None
     test_track = Path(base_file, global_file, parking_file, revpark_file)
