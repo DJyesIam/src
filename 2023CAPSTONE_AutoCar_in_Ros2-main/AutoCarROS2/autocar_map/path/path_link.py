@@ -86,6 +86,7 @@ class Path(Node):
 
 def test_track():
     base_file = file_path + '/ST_base.csv'
+    # 웨이포인트 경로
     #global_file = file_path + '/relative_waypoints.csv'
     global_file = file_path + '/moving_square_20x20_noLink.csv'
     #global_file = file_path + '/htech/delivery.csv'
