@@ -8,6 +8,7 @@ alias rtk='python3 /home/dj/ros2_ws/src/RTKLIB/rtk.py'
 alias gps='foxy && cd ~/ros2_ws && inst && ros2 run nmea_navsat_driver nmea_serial_driver'
 alias imu='foxy && cd ~/ros2_ws && inst && ros2 launch witmotion_ros wt901_launch.py'
 alias nav='foxy && cd ~/ros2_ws && inst && ros2 launch robot_localization dual_ekf_navsat_example.launch.py'
+alias bag='foxy && cd ~/ros2_ws/src && ros2 bag play rosbagodom'
 alias odom='foxy && cd ~/ros2_ws && inst && ros2 launch launches odom_launch.py'
 alias path='foxy && cd ~/ros2_ws && inst && ros2 launch launches path_launch.py'
 alias all='foxy && cd ~/ros2_ws && inst && ros2 launch combined_package combined_launch.py'
@@ -26,3 +27,7 @@ chmod +x start_ntrip.sh
   
 # 최종 실행 방법  
 rtk 설정이 끝나고 빌드도 잘 되었다면 'rtk', 'all' 두 개의 alias만 입력하면 된다.
+
+# 테스트 
+gps, imu, nav까지의 실행 토픽을 rosbag으로 저장해두었다.
+bag을 실행한 후 odom, path를 실행하면 된다.
