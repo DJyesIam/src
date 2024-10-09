@@ -6,7 +6,7 @@ localization:
 global_planner:
     ros__parameters:
         update_frequency: 10.0
-        passed_threshold: 0.25
+        passed_threshold: 1.0
         centreofgravity_to_frontaxle: 1.04
         
 local_planner:
