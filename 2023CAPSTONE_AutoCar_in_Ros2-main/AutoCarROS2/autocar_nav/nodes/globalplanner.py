@@ -97,8 +97,8 @@ class GlobalPathPlanner(Node):
             self.count[key] += 1
 
         # Class constants
-        self.wp_ahead = 10
-        self.wp_behind = 5
+        self.wp_ahead = 2 # 수정함
+        self.wp_behind = 0 # 수정 
         self.wp_published = self.wp_ahead + self.wp_behind
         self.wp_num = len(self.mx[self.link])
         self.closest_wp = 0
@@ -185,8 +185,8 @@ class GlobalPathPlanner(Node):
         via_y = self.my[self.link]
 
         wp_num = len(via_x)
-        wp_ahead = 10
-        wp_behind = 5
+        wp_ahead = 2 # 수정함
+        wp_behind = 0 # 수정함
 
         dx = [fx - icx for icx in via_x] # Find the x-axis of the front axle relative to the path_num
         dy = [fy - icy for icy in via_y] # Find the y-axis of the front axle relative to the path_num
@@ -238,8 +238,8 @@ class GlobalPathPlanner(Node):
             self.wp_ahead = 20
             self.wp_behind = 10
         else:
-            self.wp_ahead = 10
-            self.wp_behind = 5
+            self.wp_ahead = 2 # 수정함
+            self.wp_behind = 0 # 수정함
 
 
         if self.mode == 'parking' and self.parking_path_num != -1:
