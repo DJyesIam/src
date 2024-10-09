@@ -58,6 +58,7 @@ class odomPublisher(Node):
 		self.imu_yaw = 0.0
 		self.velocity = 0.0
 		self.gps_offset = {'seoul':[962897.516413939,1958728.3104721],'kcity':[935504.1834692371,1915769.1316598575]}
+		self.gps_offset_set = False
 		self.yaw_offset = 0.0
 		self.final_imu_yaw = 0.0
 		self.set_odom_tf = 0
@@ -151,8 +152,12 @@ class odomPublisher(Node):
 		transformer = Transformer.from_crs('EPSG:4326', 'EPSG:5179')
 		a, b = transformer.transform(gps.latitude, gps.longitude)
 
-		x = b - self.gps_offset['kcity'][0]
-		y = a - self.gps_offset['kcity'][1]
+		if not self.gps_offset_set:
+			self.gps_offset.update({'now': [b, a]})  # 좌표 추가
+			self.gps_offset_set = True  # 변수를 True로 설정
+
+		x = b - self.gps_offset['now'][0]
+		y = a - self.gps_offset['now'][1]
 
 		self.gpose.pose.pose.position.x=x + self.gx_key_offset
 		self.gpose.pose.pose.position.y=y + self.gy_key_offset
