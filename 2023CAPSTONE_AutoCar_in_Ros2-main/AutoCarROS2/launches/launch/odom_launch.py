@@ -62,25 +62,25 @@ def generate_launch_description():
         #     executable = 'dead_reckoning.py'
         # ),
 
-        # Node(
-        #     package = odom,
-        #     name = 'odom_viz',
-        #     executable = 'odom_viz.py'
-        # ),
+        Node(
+            package = odom,
+            name = 'odom_viz',
+            executable = 'odom_viz.py'
+        ),
 
-        # Node(
-        #     package='rviz2',
-        #     executable='rviz2',
-        #     name='rviz2',
-        #     arguments=['-d', rviz],
-        #     output={'both': 'log'}
-        # ),
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            arguments=['-d', rviz],
+            output={'both': 'log'}
+        ),
 
-        # Node(
-        #     package = mappkg,
-        #     name = 'mapviz',
-        #     executable = 'link_visualizer.py'
-        # )
+        Node(
+            package = mappkg,
+            name = 'mapviz',
+            executable = 'link_visualizer.py'
+        )
     ])
 
 def main():

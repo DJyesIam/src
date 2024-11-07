@@ -189,21 +189,21 @@ class Ros2NMEADriver(Node):
             current_fix.position_covariance[8] = (2 * hdop * self.alt_std_dev) ** 2  # FIXME
             
             ########################################################################################
-            current_fix.latitude = 37.631372 + self.cnt
-            current_fix.longitude = 127.076076 + self.cnt
-            current_fix.altitude = 70.000000 + self.cnt
-            current_fix.status.status = NavSatStatus.STATUS_FIX
-            current_fix.position_covariance_type = NavSatFix.COVARIANCE_TYPE_APPROXIMATED
-            current_fix.position_covariance[0] = 1e-6
-            current_fix.position_covariance[4] = 1e-6
-            current_fix.position_covariance[8] = 1e-6
-            self.cnt += 0.000001
-            current_vel = TwistStamped()
-            current_vel.header.stamp = current_time
-            current_vel.header.frame_id = frame_id
-            current_vel.twist.linear.x = 0.000001
-            current_vel.twist.linear.y = 0.000001
-            self.vel_pub.publish(current_vel)
+            # current_fix.latitude = 37.631372 + self.cnt
+            # current_fix.longitude = 127.076076 + self.cnt
+            # current_fix.altitude = 70.000000 + self.cnt
+            # current_fix.status.status = NavSatStatus.STATUS_FIX
+            # current_fix.position_covariance_type = NavSatFix.COVARIANCE_TYPE_APPROXIMATED
+            # current_fix.position_covariance[0] = 1e-6
+            # current_fix.position_covariance[4] = 1e-6
+            # current_fix.position_covariance[8] = 1e-6
+            # # self.cnt += 0.000001
+            # current_vel = TwistStamped()
+            # current_vel.header.stamp = current_time
+            # current_vel.header.frame_id = frame_id
+            # # current_vel.twist.linear.x = 0.000001
+            # # current_vel.twist.linear.y = 0.000001
+            # self.vel_pub.publish(current_vel)
             ########################################################################################
 
             self.fix_pub.publish(current_fix)
